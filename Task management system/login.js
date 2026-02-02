@@ -164,3 +164,4 @@ authMessage.textContent = message;
 authMessage.className = `auth-message ${type}`;
 }
 
+
