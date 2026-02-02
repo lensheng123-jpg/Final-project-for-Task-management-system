@@ -84,3 +84,4 @@ document.addEventListener('firebase-ready', initializeFirebase);
 // Make initializeFirebase available globally
 window.initializeFirebase = initializeFirebase;
 
+
