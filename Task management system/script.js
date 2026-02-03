@@ -147,7 +147,7 @@ updateStats();
 
 } catch (error) {
 console.error('Error loading tasks:', error);
-}
+}// T2-02: Task deletion by @kokeng123eng
 }
 
 async function addTask() {
