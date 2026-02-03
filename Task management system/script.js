@@ -47,6 +47,8 @@ return;
 addBtn.addEventListener('click', addTask);
 if (statusFilter) statusFilter.addEventListener('change', renderTasks);
 if (logoutBtn) logoutBtn.addEventListener('click', handleLogout);
+  
+  Add: // T2-04: Task filtering by @Magic-Maggie - Sprint 2
 
 if (window.auth) {
 auth.onAuthStateChanged(async (user) => {
