@@ -1,3 +1,4 @@
+ // T2-10: Confetti animation by @kokeng123eng - Sprint 2
 function showConfetti() {
 const confettiCount = 100;
 const container = document.createElement('div');
@@ -40,4 +41,5 @@ function getRandomColor() {
 const colors = ['#667eea', '#764ba2', '#10b981', '#f59e0b', '#ef4444', '#3b82f6'];
 return colors[Math.floor(Math.random() * colors.length)];
 }
+
 
