@@ -620,7 +620,7 @@ container.remove();
 }
 }, 3000);
 }
-
+// T2-11: Sound effects by @kokeng123eng - Sprint 2
 // ========== SOUND FUNCTION ==========
 function playCompletionSound() {
 try {
