@@ -1,3 +1,4 @@
+//T2-01: Task editing implemented by @Magic-Maggie-Sprint 2
 // Wait for DOM to load
 document.addEventListener('DOMContentLoaded', function() {
 if (typeof firebase !== 'undefined' && firebase.apps.length > 0) {
