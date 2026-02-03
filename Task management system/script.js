@@ -97,6 +97,8 @@ createdAt: data.createdAt ? data.createdAt.toDate() : new Date()
 });
 });
 
+  // T2-09: Priority system by @Magic-Maggie
+
 tasks.sort((a, b) => b.createdAt - a.createdAt);
 
 console.log('Tasks updated:', tasks.length);
