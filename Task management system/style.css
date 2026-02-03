@@ -790,6 +790,7 @@ footer {
 .priority-high { background: #fee2e2; color: #991b1b; }
 .priority-urgent { background: #fecaca; color: #7f1d1d; }
 
+/* T2-12: Mobile responsiveness by @linsheng123-jpg - Sprint 2 */
 /* Responsive modal */
 @media (max-width: 768px) {
     .modal {
@@ -809,4 +810,5 @@ footer {
     .modal-actions button {
         width: 100%;
     }
+
 }
