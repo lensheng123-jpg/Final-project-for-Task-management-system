@@ -1,7 +1,7 @@
 # Final Testing Report - Sprint 2
 
-## Test Conducted by: @Magic-Maggie, @kokeng123eng, @linsheng123-jpg
-## Date: [Today's Date]
+## Test Conducted by: @Magic-Maggie, @kokeng123eng, @lensheng123-jpg
+
 
 ## Browser Compatibility Results:
 - Chrome 98: ✅ All features working
