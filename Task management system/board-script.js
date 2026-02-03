@@ -1,4 +1,4 @@
-Add at top: // T2-07: Kanban board JavaScript by @Magic-Maggie - Sprint 2
+Add at top: // T2-07: Kanban board JavaScript by @Magic-Maggie - Sprint 2.
 document.addEventListener('DOMContentLoaded', function() {
 if (typeof firebase !== 'undefined' && firebase.apps.length > 0) {
 initBoard();
@@ -851,5 +851,6 @@ alert('Error logging out: ' + error.message);
 window.editTask = editTask;
 window.deleteTask = deleteTask;
 window.changeStatus = changeStatus;
+
 
 
