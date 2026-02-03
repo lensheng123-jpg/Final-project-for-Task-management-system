@@ -544,7 +544,7 @@ const div = document.createElement('div');
 div.textContent = text;
 return div.innerHTML;
 }
-
+// T2-05: Statistics dashboard by @kokeng123eng - Sprint 2
 function updateStats() {
 const totalTasks = document.getElementById('totalTasks');
 const todoTasks = document.getElementById('todoTasks');
