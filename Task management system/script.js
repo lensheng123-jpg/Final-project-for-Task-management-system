@@ -14,7 +14,7 @@ let tasksListener = null;
 let confettiEnabled = true;
 let soundEnabled = true;
 
-// Add near the top of script.js
+// T2-08: Task categories by @linsheng123-jpg - Sprint 2
 const CATEGORIES = ['Assignments', 'Projects', 'Exams', 'Homework', 'Research', 'Study Group', 'Personal', 'Other'];
 
 function initApp() {
