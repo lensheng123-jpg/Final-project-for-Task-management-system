@@ -23,7 +23,6 @@
 | T2-09 | Implement priority system | Mou Chai Shan | 3 | 3 | ✅ Done | #21 |
 | T2-10 | Add confetti animation for completed tasks | Na Kuan Ren | 2 | 1.5 | ✅ Done | #22 |
 | T2-11 | Implement completion sound effects | Na Kuan Ren | 2 | 2.5 | ✅ Done | #23 |
-| T2-12 | Enhance mobile responsiveness | Na Kuan Li | 4 | 5 | ✅ Done | #24 |
 | T2-13 | Cross-browser testing | All | 3 | 4 | ✅ Done | #25 |
 | T2-14 | Create comprehensive documentation | Mou Chai Shan | 4 | 3 | ✅ Done | #26 |
 | T2-15 | Final system testing | All | 3 | 4 | ✅ Done | #27 |
