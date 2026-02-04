@@ -21,7 +21,7 @@ TaskFlow is a comprehensive web-based task management system developed using **A
 | Role | Name | Responsibilities | GitHub |
 |------|------|------------------|--------|
 | **Product Owner** | Mou Chai Shan | Product vision, user stories, documentation | [@Magic-Maggie](https://github.com/Magic-Maggie) |
-| **Scrum Master** | Na Kuan Ren | Sprint planning, Scrum tracking, GitHub board | [@kokeng123eng](https://github.com/kokeng123eng) |
+| **Scrum Master** | Na Kuan Ren | Sprint planning, Scrum tracking, GitHub board | [@kokeng1234eng-prog](https://github.com/kokeng1234eng-prog) |
 | **Developer** | Na Kuan Li | System development, testing, implementation | [@lensheng123-jpg](https://github.com/lensheng123-jpg) |
 
 ## 🛠️ Technologies Used
