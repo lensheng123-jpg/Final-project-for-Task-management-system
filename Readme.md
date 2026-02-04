@@ -1,11 +1,7 @@
 # 🚀 TaskFlow - Advanced Task Management System
 
-![TaskFlow Banner](assets/screenshots/taskflow-banner.png)
-
 ## 📋 Project Overview
 TaskFlow is a comprehensive web-based task management system developed using **Agile Scrum methodology** over two sprints. The system features user authentication, real-time task management, interactive Kanban board, and advanced filtering capabilities.
-
-**Live Demo:** [https://yourusername.github.io/TaskFlow](https://yourusername.github.io/TaskFlow)
 
 ## 🏆 Features
 - 🔐 **User Authentication** - Secure registration/login with Firebase
