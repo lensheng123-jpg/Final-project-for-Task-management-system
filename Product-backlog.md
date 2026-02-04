@@ -1,7 +1,6 @@
 # Product Backlog - TaskFlow Task Management System
 
 ## Version: 1.0
-## Last Updated: [Date]
 ## Product Owner: Mou Chai Shan
 
 ## User Stories
