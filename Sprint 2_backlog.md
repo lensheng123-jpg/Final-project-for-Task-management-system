@@ -4,7 +4,7 @@
 "Enhance functionality: Complete all remaining features and polish the system"
 
 ## Duration
-[Start Date] to [End Date] (2 weeks)
+(2 weeks)
 
 ## Team Velocity: 25 story points (increased from Sprint 1)
 
