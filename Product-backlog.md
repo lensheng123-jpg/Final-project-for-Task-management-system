@@ -20,7 +20,6 @@
 | US-11 | As a user, I want to categorize tasks (Assignments, Projects, etc.) | Medium | 8 | ✅ Done | Sprint 2 |
 | US-12 | As a user, I want to set task priorities (Low, Medium, High, Urgent) | Medium | 5 | ✅ Done | Sprint 2 |
 | US-13 | As a user, I want to get visual feedback when completing tasks | Low | 3 | ✅ Done | Sprint 2 |
-| US-14 | As a user, I want a responsive design that works on mobile | High | 8 | ✅ Done | Sprint 2 |
 
 ## Technical Requirements
 | ID | Requirement | Priority | Status |
@@ -35,6 +34,5 @@
 - ✓ Code committed to GitHub
 - ✓ Feature tested on 3 browsers
 - ✓ No console errors
-- ✓ Mobile responsive
 - ✓ Documentation updated
 - ✓ Code reviewed by another team member
