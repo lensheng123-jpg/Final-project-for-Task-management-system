@@ -4,7 +4,7 @@
 "Build the foundation: User authentication and basic task management"
 
 ## Duration
-[Start Date] to [End Date] (2 weeks)
+(2 weeks)
 
 ## Team Velocity: 21 story points
 
