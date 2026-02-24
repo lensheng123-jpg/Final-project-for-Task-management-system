@@ -1,4 +1,3 @@
-//T2-01: Task editing implemented by @Magic-Maggie-Sprint 2
 // Wait for DOM to load
 document.addEventListener('DOMContentLoaded', function() {
 if (typeof firebase !== 'undefined' && firebase.apps.length > 0) {
@@ -14,7 +13,7 @@ let tasksListener = null;
 let confettiEnabled = true;
 let soundEnabled = true;
 
-// T2-08: Task categories by @linsheng123-jpg - Sprint 2
+// Add near the top of script.js
 const CATEGORIES = ['Assignments', 'Projects', 'Exams', 'Homework', 'Research', 'Study Group', 'Personal', 'Other'];
 
 function initApp() {
@@ -47,8 +46,6 @@ return;
 addBtn.addEventListener('click', addTask);
 if (statusFilter) statusFilter.addEventListener('change', renderTasks);
 if (logoutBtn) logoutBtn.addEventListener('click', handleLogout);
-  
-  Add: // T2-04: Task filtering by @Magic-Maggie - Sprint 2
 
 if (window.auth) {
 auth.onAuthStateChanged(async (user) => {
@@ -97,13 +94,12 @@ createdAt: data.createdAt ? data.createdAt.toDate() : new Date()
 });
 });
 
-  // T2-09: Priority system by @Magic-Maggie
-
 tasks.sort((a, b) => b.createdAt - a.createdAt);
 
 console.log('Tasks updated:', tasks.length);
 renderTasks();
 updateStats();
+checkDeadlineReminders(tasks);   // <-- add this line
 }, (error) => {
 console.error('Error in real-time listener:', error);
 loadTasksOnce();
@@ -144,10 +140,11 @@ tasks.sort((a, b) => b.createdAt - a.createdAt);
 console.log('Tasks loaded once:', tasks.length);
 renderTasks();
 updateStats();
+checkDeadlineReminders(tasks);   // <-- add this line
 
 } catch (error) {
 console.error('Error loading tasks:', error);
-}// T2-02: Task deletion by @kokeng123eng
+}
 }
 
 async function addTask() {
@@ -423,7 +420,6 @@ saveBtn.disabled = false;
 }
 });
 }
-// T2-03: Status change system by @linsheng123-jpg - Sprint 2
 
 async function changeStatus(id) {
 const task = tasks.find(t => t.id === id);
@@ -545,7 +541,7 @@ const div = document.createElement('div');
 div.textContent = text;
 return div.innerHTML;
 }
-// T2-05: Statistics dashboard by @kokeng123eng - Sprint 2
+
 function updateStats() {
 const totalTasks = document.getElementById('totalTasks');
 const todoTasks = document.getElementById('todoTasks');
@@ -621,7 +617,7 @@ container.remove();
 }
 }, 3000);
 }
-// T2-11: Sound effects by @kokeng123eng - Sprint 2
+
 // ========== SOUND FUNCTION ==========
 function playCompletionSound() {
 try {
@@ -752,6 +748,4 @@ notification.remove();
 window.editTask = editTask;
 window.deleteTask = deleteTask;
 window.changeStatus = changeStatus;
-
-
 
