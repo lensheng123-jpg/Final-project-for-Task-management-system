@@ -9,9 +9,11 @@ TaskFlow is a comprehensive web-based task management system developed using **A
 - 🎯 **Kanban Board** - Drag & drop task organization
 - 📊 **Statistics Dashboard** - Real-time progress tracking
 - 🏷️ **Categories & Priorities** - Organize by type and urgency
-- 📱 **Responsive Design** - Works on all devices
-- 🎉 **Celebration Effects** - Confetti and sounds on task completion
+- ⏰ **Deadline Notifications** - Visual and sound alerts for tasks due within 3 days
+- 📋 **Due Soon List** - Quick overview of upcoming deadlines
+- 🎉 **Completion Celebrations** - Confetti and success sounds when tasks are marked done
 - 🔄 **Real-time Updates** - Instant sync across all views
+- 📱 **Responsive Design** - Works on all devices
 
 ## 👥 Team Members & Roles
 | Role | Name | Responsibilities | GitHub |
@@ -24,6 +26,7 @@ TaskFlow is a comprehensive web-based task management system developed using **A
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 - **Backend:** Firebase Authentication & Firestore
 - **Storage:** LocalStorage API (fallback)
+- **Notifications:** Web Audio API for sound, sessionStorage for duplicate prevention
 - **Version Control:** Git & GitHub
 - **Methodology:** Agile Scrum
 - **Hosting:** GitHub Pages
@@ -38,7 +41,7 @@ We followed Scrum methodology with **2 sprints**:
 
 ### **Sprint 2 (Week 3-4): Enhancement**
 - Goal: Complete all features and polish
-- Completed: US-05 to US-14
+- Completed: US-05 to US-14 (including notification system)
 - Velocity: 25 story points
 
 ## 🚀 Getting Started
@@ -53,6 +56,3 @@ We followed Scrum methodology with **2 sprints**:
    ```bash
    git clone https://github.com/yourusername/TaskFlow.git
    cd TaskFlow
-   ## Documentation
-Comprehensive documentation added by @Magic-Maggie as part of Sprint 2.
-
