@@ -1,7 +1,7 @@
 # 🚀 TaskFlow - Advanced Task Management System
 
 ## 📋 Project Overview
-TaskFlow is a comprehensive web-based task management system developed using **Agile Scrum methodology** over two sprints. The system features user authentication, real-time task management, interactive Kanban board, and advanced filtering capabilities.
+TaskFlow is a comprehensive web-based task management system developed using **Agile Scrum methodology** over two sprints. The system features user authentication, real-time task management, interactive Kanban board, and advanced filtering capabilities, and **automatic email reminders** for upcoming deadlines.
 
 ## 🏆 Features
 - 🔐 **User Authentication** - Secure registration/login with Firebase
@@ -10,6 +10,7 @@ TaskFlow is a comprehensive web-based task management system developed using **A
 - 📊 **Statistics Dashboard** - Real-time progress tracking
 - 🏷️ **Categories & Priorities** - Organize by type and urgency
 - ⏰ **Deadline Notifications** - Visual and sound alerts for tasks due within 3 days
+- 📧 **Email Reminders** - Automatic daily emails sent to users when tasks are due in 3 days (via Google Apps Script)
 - 📋 **Due Soon List** - Quick overview of upcoming deadlines
 - 🎉 **Completion Celebrations** - Confetti and success sounds when tasks are marked done
 - 🔄 **Real-time Updates** - Instant sync across all views
@@ -27,6 +28,7 @@ TaskFlow is a comprehensive web-based task management system developed using **A
 - **Backend:** Firebase Authentication & Firestore
 - **Storage:** LocalStorage API (fallback)
 - **Notifications:** Web Audio API for sound, sessionStorage for duplicate prevention
+- **Email Notifications:** Google Apps Script, GmailApp, Firebase Admin SDK
 - **Version Control:** Git & GitHub
 - **Methodology:** Agile Scrum
 - **Hosting:** GitHub Pages
