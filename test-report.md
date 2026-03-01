@@ -32,6 +32,16 @@
 | TC-17 | Open board page with tasks due soon | Due Soon panel shows correct tasks with accurate day labels (e.g., “Today”, “Tomorrow”). | ✅ Pass | @Magic-Maggie |
 | TC-18 | Toggle the Due Soon panel collapsed/expanded | State persists after page reload. | ✅ Pass | @kokeng123eng |
 
+## Email Notification System Testing
+
+| Test Case | Description | Expected Result | Status | Tester |
+|-----------|-------------|-----------------|--------|--------|
+| TC-19 | User has task due in 3 days with status not done | Email reminder is sent to user's registered email address | ✅ Pass | @kokeng123eng |
+| TC-20 | User has multiple tasks due in 3 days | Single email containing all tasks is sent | ✅ Pass | @Magic-Maggie |
+| TC-21 | User has no tasks due in 3 days | No email is sent | ✅ Pass | @lensheng123-jpg |
+| TC-22 | Task marked as done before the reminder runs | No email is sent for that task | ✅ Pass | @kokeng123eng |
+| TC-23 | Verify email content includes task titles and deadline | Email contains correct task list | ✅ Pass | @Magic-Maggie |
+
 
 ## Performance Metrics:
 - Lighthouse Score: 92/100
