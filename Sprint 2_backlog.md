@@ -64,4 +64,4 @@
 - "Celebration effects are motivating"
 - "All features work as expected"
 
-**Accepted Stories:** US-05 through US-14
+**Accepted Stories:** US-05 through US-13
