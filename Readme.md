@@ -43,7 +43,7 @@ We followed Scrum methodology with **2 sprints**:
 
 ### **Sprint 2 (Week 3-4): Enhancement**
 - Goal: Complete all features and polish
-- Completed: US-05 to US-14 (including notification system)
+- Completed: All remaining user stories (US-05 to US-13) plus additional notification features
 - Velocity: 25 story points
 
 ## 🚀 Getting Started
