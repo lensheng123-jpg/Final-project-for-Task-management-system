@@ -45,7 +45,7 @@
 ## Sprint 2 Review (End of Sprint 2)
 
 ### ✅ What We Completed:
-1. **US-05 to US-13:** All remaining user stories plus additional notification features
+1. **US-05 to US-13:** All remaining user stories (US-05 to US-13) plus additional notification features
 
 2. **Enhanced Features:** Kanban board, categories, priorities, animations
 3. **Polish:**cross-browser compatibility
